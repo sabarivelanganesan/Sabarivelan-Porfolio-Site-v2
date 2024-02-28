@@ -20,13 +20,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.17",
-    "gatsby-plugin-postcss": "^3.7.0",
-    "postcss": "^8.4.35",
-    "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.11",
-    "tailwindcss": "^3.4.1"
+  "devDependencies": {    
   },
   "overrides": {
     "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
@@ -34,3 +28,4 @@
     }
   }
 }
+
