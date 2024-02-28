@@ -6,5 +6,5 @@ module.exports = {
     title: `Sabarivelan`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: ['gatsby-plugin-postcss'],
+  plugins: [],
 }
