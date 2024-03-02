@@ -11,3 +11,4 @@
 - styles and colors
 - More responsive website
 - use Tailwind for styling
+- Netlify for deployment
