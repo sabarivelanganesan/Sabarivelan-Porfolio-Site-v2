@@ -1,16 +1,6 @@
 import React from "react";
 
 const About = () => {
-    const linkedinLink = "https://www.linkedin.com/in/sabarivelan-ganesan/";
-
-    const handleConnectingLinkedIn() {
-        window.open(linkedinLink, "_blank", "noopener,noreferrer);
-    };
-
-    const handleContact() {
-        // Todo
-    }
-     
     return (
         <div className="pr-4 md:pr-40">
             <h4 className="text-base md:text-lg">Software Developer</h4>
@@ -23,8 +13,8 @@ const About = () => {
             </div>
 
             <div className="mt-4">
-                <button className="mr-2 mb-2 md:mb-0" onclick={handleContact}>Let's talk</button>
-                <button onclick={handleConnectingLinkedIn}>Connect on LinkedIn</button>
+                <button className="mr-2 mb-2 md:mb-0">Let's talk</button>
+                <button>Connect on LinkedIn</button>
             </div>
         </div>
     )
